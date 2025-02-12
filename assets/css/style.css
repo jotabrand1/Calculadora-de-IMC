@@ -80,7 +80,8 @@ form button:hover {
 
 @media (max-width:800px){
     .container{
-      width: 400px;
+      width: 200px;
       height: auto;
+      font-size: 20px
     }
 }
