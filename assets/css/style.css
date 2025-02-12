@@ -79,8 +79,26 @@ form button:hover {
 }
 
 @media (max-width:800px){
-    .container{
-      width: 400px;
-      height: auto;
+  @media (max-width: 800px) {
+    .container {
+        width: 85%;
+        height: auto;
+        margin: 50px auto; /* Mantém o container centralizado */
+        padding: 20px; /* Mantém o padding interno */
     }
-}
+
+    body {
+        font-size: 85%; /* Reduz o tamanho da fonte para 85% */
+    }
+
+    form input {
+        font-size: medium;
+        height: 40px;
+    }
+
+    form button {
+        font-size: 85%; /* Reduz o tamanho da fonte do botão para 85% */
+        height: 40px;
+    }
+
+}}
