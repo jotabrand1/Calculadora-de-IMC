@@ -82,6 +82,11 @@ form button:hover {
     .container{
       width: 350px;
       height: auto;
-      font-size: 30px
+      
     }
+    .body{
+      font-size:1.3em
+    }
+    
+      
 }
